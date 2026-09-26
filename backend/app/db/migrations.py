@@ -30,6 +30,12 @@ CREATE TABLE IF NOT EXISTS profiles (
     anonymized_at   TIMESTAMPTZ
 );
 
+-- Account-deletion fields for databases created before they were added above.
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ;
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS deletion_requested_at TIMESTAMPTZ;
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS deletion_reason TEXT;
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS anonymized_at TIMESTAMPTZ;
+
 CREATE INDEX IF NOT EXISTS idx_profiles_email      ON profiles(email);
 CREATE INDEX IF NOT EXISTS idx_profiles_role       ON profiles(role);
 -- Composite index for admin stats: role + created_at for monthly new-customer counts

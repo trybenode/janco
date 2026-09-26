@@ -42,14 +42,17 @@ const useAuthStore = create((set, get) => ({
         // Register with API client so requests include JWT
         _registerClient(get);
 
+        // Local hydration is enough to render the app. Profile validation
+        // must not keep the native splash screen waiting on the network.
+        set({ initialized: true });
+
         // Try to fetch profile with stored token
         const { data, error } = await authApi.getProfile();
         if (data && !error) {
-          set({ profile: data, user: data, initialized: true });
+          set({ profile: data, user: data });
         } else {
           // Token expired — clear
           await get().clearAuth();
-          set({ initialized: true });
         }
       } else {
         set({ initialized: true });
