@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use theme color React hook for the Expo mobile application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: frontend/App/constants/Colors.js, frontend/App/hooks/useColorScheme.js.
+ * Imported or linked from: frontend/App/components/ThemedView.jsx.
+ */
+
 /**
  * Learn more about light and dark modes:
  * https://docs.expo.dev/guides/color-schemes/

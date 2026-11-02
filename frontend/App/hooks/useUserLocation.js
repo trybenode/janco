@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use user location React hook for the Expo mobile application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+ * Imported or linked from: frontend/App/screens/BookingScreen.jsx, frontend/App/screens/ProfileScreen.jsx, frontend/App/screens/auth/RegistrationScreen.jsx.
+ */
+
 /**
  * useUserLocation — GPS location hook with Nigeria-aware defaults.
  *

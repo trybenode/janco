@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use janitors React hook for the Expo mobile application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: frontend/api/bookingApi.js, frontend/api/janitorApi.js.
+ * Imported or linked from: frontend/App/screens/Janitor/JanitorDashBoardScreen.jsx, frontend/App/screens/Janitor/JanitorScheduleScreen.jsx.
+ */
+
 import { useState, useEffect, useCallback } from 'react';
 import * as janitorApi from '../../api/janitorApi';
 import * as bookingApi from '../../api/bookingApi';

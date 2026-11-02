@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use color scheme web React hook for the Expo mobile application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+ * Imported or linked from: None identified by static analysis; framework, runtime, or external consumers may exist.
+ */
+
 import { useEffect, useState } from 'react';
 import { useColorScheme as useRNColorScheme } from 'react-native';
 

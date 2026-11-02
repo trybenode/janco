@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use job React hook for the Expo mobile application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: frontend/App/store/networkStore.js, frontend/api/bookingApi.js.
+ * Imported or linked from: None identified by static analysis; framework, runtime, or external consumers may exist.
+ */
+
 /**
  * useJobs Hook (migrated).
  *

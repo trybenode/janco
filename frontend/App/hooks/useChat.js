@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Manages job chat history, WebSocket connectivity, and message sending for mobile screens.
+ * Why: It keeps live chat state and HTTP fallback behavior together.
+ * Uses or links to: frontend/App/store/authStore.js, frontend/api/chatApi.js, frontend/api/config.js.
+ * Imported or linked from: frontend/App/screens/ChatScreen.jsx.
+ */
+
 /**
  * useChat Hook — manages chat state for a job.
  *

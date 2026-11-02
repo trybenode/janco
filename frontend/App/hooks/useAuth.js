@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use auth React hook for the Expo mobile application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: frontend/App/store/authStore.js.
+ * Imported or linked from: frontend/App/hooks/authContext.js.
+ */
+
 /**
  * useAuth Hook (migrated).
  *
