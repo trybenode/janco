@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Defines theme context constants used by the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/App/constants/theme/colors.js, frontend/App/constants/theme/elevation.js, frontend/App/constants/theme/spacing.js, frontend/App/constants/theme/typography.js.
+ * Imported or linked from: frontend/App.jsx, frontend/App/components/AppContent.jsx, frontend/App/components/job/StatusTimeline.jsx, frontend/App/components/ui/AppButton.jsx, frontend/App/components/ui/AppCard.jsx, frontend/App/components/ui/AppHeader.jsx, frontend/App/components/ui/AppInput.jsx, frontend/App/components/ui/AppText.jsx; 33 more in docs/file-inventory.md.
+ */
+
 /**
  * JANCO ThemeProvider & useTheme Hook
  *
@@ -17,16 +25,22 @@
  * @module theme/ThemeContext
  */
 
-import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
-import { useColorScheme } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+import { useColorScheme } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-import { Colors } from './colors';
-import { TypeScale } from './typography';
-import { Spacing } from './spacing';
-import { Elevation } from './elevation';
+import { Colors } from "./colors";
+import { TypeScale } from "./typography";
+import { Spacing } from "./spacing";
+import { Elevation } from "./elevation";
 
-const STORAGE_KEY = '@janco_color_scheme';
+const STORAGE_KEY = "@janco_color_scheme";
 
 /**
  * @typedef {Object} ThemeContextValue
@@ -49,21 +63,21 @@ const ThemeContext = createContext(undefined);
  * @returns {React.ReactElement}
  */
 export function ThemeProvider({ children }) {
-  const systemScheme = useColorScheme() ?? 'light';
+  const systemScheme = useColorScheme() ?? "light";
   const [override, setOverride] = useState(null); // null = follow system
 
   // Load persisted preference on mount
   useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY).then((value) => {
-      if (value === 'light' || value === 'dark') setOverride(value);
+      if (value === "light" || value === "dark") setOverride(value);
     });
   }, []);
 
   const colorScheme = override ?? systemScheme;
-  const isDark = colorScheme === 'dark';
+  const isDark = colorScheme === "dark";
 
   const toggleTheme = () => {
-    const next = isDark ? 'light' : 'dark';
+    const next = isDark ? "light" : "dark";
     setOverride(next);
     AsyncStorage.setItem(STORAGE_KEY, next);
   };
@@ -81,7 +95,9 @@ export function ThemeProvider({ children }) {
     [colorScheme, isDark],
   );
 
-  return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
+  );
 }
 
 /**
@@ -94,7 +110,7 @@ export function ThemeProvider({ children }) {
 export function useTheme() {
   const ctx = useContext(ThemeContext);
   if (!ctx) {
-    throw new Error('useTheme() must be used inside <ThemeProvider>');
+    throw new Error("useTheme() must be used inside <ThemeProvider>");
   }
   return ctx;
 }
