@@ -3,7 +3,7 @@
  * Purpose: Defines PWA catalog display fallbacks, service lookup, and currency formatting.
  * Why: It groups this functionality for reuse or execution within the project.
  * Uses or links to: web/lib/types.ts.
- * Imported or linked from: web/app/book/page.tsx, web/app/janitor/page.tsx, web/app/janitor/schedule/page.tsx, web/app/portal/bookings/page.tsx, web/app/portal/jobs/[id]/page.tsx, web/app/portal/page.tsx, web/app/price-estimate/page.tsx, web/app/pricing/page.tsx; 3 more in docs/file-inventory.md.
+ * Imported or linked from: web/app/book/_components/BookingSummary.tsx, web/app/book/_components/ServiceStep.tsx, web/app/book/_components/SpaceStep.tsx, web/app/book/_hooks/useBooking.ts; see docs/file-inventory.md for other dependents.
  */
 
 import type { CatalogExtra, Service } from "./types";

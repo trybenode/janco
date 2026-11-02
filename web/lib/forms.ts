@@ -3,7 +3,7 @@
  * Purpose: Provides forms integration and shared functionality for the customer and janitor PWA.
  * Why: It groups this functionality for reuse or execution within the project.
  * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
- * Imported or linked from: web/app/book/page.tsx, web/app/janitor/register/page.tsx, web/app/portal/chat/[jobId]/page.tsx, web/app/registration/page.tsx.
+ * Imported or linked from: web/app/book/_hooks/useBooking.ts, web/app/janitor/register/page.tsx, web/app/portal/chat/[jobId]/page.tsx, web/app/registration/page.tsx.
  */
 
 export function normalizePlainText(value: string, maxLength: number, multiline = false): string {

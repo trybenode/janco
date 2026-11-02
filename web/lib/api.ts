@@ -3,7 +3,7 @@
  * Purpose: Provides authenticated browser requests, session refresh, error messages, and PWA API contracts.
  * Why: It groups this functionality for reuse or execution within the project.
  * Uses or links to: web/lib/catalog.ts, web/lib/offline.ts, web/lib/security.ts, web/lib/types.ts.
- * Imported or linked from: web/app/book/page.tsx, web/app/forgot-password/page.tsx, web/app/janitor/page.tsx, web/app/janitor/profile/page.tsx, web/app/janitor/register/page.tsx, web/app/janitor/schedule/page.tsx, web/app/janitor/verification/page.tsx, web/app/login/page.tsx; 22 more in docs/file-inventory.md.
+ * Imported or linked from: web/app/book/_hooks/useBooking.ts, web/app/forgot-password/page.tsx, web/app/janitor/page.tsx, web/app/janitor/profile/page.tsx, web/app/janitor/register/page.tsx, web/app/janitor/schedule/page.tsx, web/app/janitor/verification/page.tsx, web/app/login/page.tsx; 22 more in docs/file-inventory.md.
  * Backend API routes: backend/app/routes/auth_routes.py, backend/app/routes/booking_routes.py, backend/app/routes/chat_routes.py, backend/app/routes/janitor_routes.py, backend/app/routes/location_routes.py, backend/app/routes/payment_routes.py, backend/app/routes/pricing_routes.py, backend/app/routes/rating_routes.py; 4 more in docs/file-inventory.md.
  */
 

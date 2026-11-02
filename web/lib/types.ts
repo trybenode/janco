@@ -3,7 +3,7 @@
  * Purpose: Defines TypeScript contracts for profiles, bookings, quotes, janitors, chat, and PWA services.
  * Why: It groups this functionality for reuse or execution within the project.
  * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
- * Imported or linked from: web/app/book/page.tsx, web/app/janitor/page.tsx, web/app/janitor/profile/page.tsx, web/app/janitor/schedule/page.tsx, web/app/nearby-janitors/page.tsx, web/app/portal/bookings/page.tsx, web/app/portal/chat/[jobId]/page.tsx, web/app/portal/jobs/[id]/page.tsx; 11 more in docs/file-inventory.md.
+ * Imported or linked from: web/app/book/_hooks/useBooking.ts, web/app/janitor/page.tsx, web/app/janitor/profile/page.tsx, web/app/janitor/schedule/page.tsx, web/app/nearby-janitors/page.tsx, web/app/portal/bookings/page.tsx, web/app/portal/chat/[jobId]/page.tsx, web/app/portal/jobs/[id]/page.tsx; 11 more in docs/file-inventory.md.
  */
 
 export type Profile = {
