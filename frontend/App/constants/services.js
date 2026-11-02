@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Defines services constants used by the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+ * Imported or linked from: frontend/App/screens/BookingScreen.jsx, frontend/App/screens/HomeScreen.jsx, frontend/App/screens/Janitor/JanitorRegistrationScreen.jsx.
+ */
+
 /**
  * Service type definitions — single source of truth.
  *
@@ -9,48 +17,48 @@
 
 export const SERVICE_TYPES = [
   {
-    id: 'house_cleaning',
-    label: 'House Cleaning',
-    shortLabel: 'House',
-    icon: 'cleaning-services',         // MaterialIcons
-    iconFamily: 'MaterialIcons',
-    description: 'Regular home cleaning',
+    id: "house_cleaning",
+    label: "House Cleaning",
+    shortLabel: "House",
+    icon: "cleaning-services", // MaterialIcons
+    iconFamily: "MaterialIcons",
+    description: "Regular home cleaning",
     available: true,
   },
   {
-    id: 'deep_cleaning',
-    label: 'Deep Cleaning',
-    shortLabel: 'Deep',
-    icon: 'cleaning-services',
-    iconFamily: 'MaterialIcons',
-    description: 'Intensive deep clean',
+    id: "deep_cleaning",
+    label: "Deep Cleaning",
+    shortLabel: "Deep",
+    icon: "cleaning-services",
+    iconFamily: "MaterialIcons",
+    description: "Intensive deep clean",
     available: true,
   },
   {
-    id: 'laundry',
-    label: 'Laundry',
-    shortLabel: 'Laundry',
-    icon: 'dry-cleaning',              // MaterialIcons
-    iconFamily: 'MaterialIcons',
-    description: 'Wash, iron, fold',
+    id: "laundry",
+    label: "Laundry",
+    shortLabel: "Laundry",
+    icon: "dry-cleaning", // MaterialIcons
+    iconFamily: "MaterialIcons",
+    description: "Wash, iron, fold",
     available: true,
   },
   {
-    id: 'fumigation',
-    label: 'Fumigation',
-    shortLabel: 'Fumigate',
-    icon: 'spray-bottle',              // MaterialCommunityIcons
-    iconFamily: 'MaterialCommunityIcons',
-    description: 'Pest control & fumigation',
-    available: false,                   // coming soon
+    id: "fumigation",
+    label: "Fumigation",
+    shortLabel: "Fumigate",
+    icon: "spray-bottle", // MaterialCommunityIcons
+    iconFamily: "MaterialCommunityIcons",
+    description: "Pest control & fumigation",
+    available: false, // coming soon
   },
   {
-    id: 'post_construction',
-    label: 'Post-Construction',
-    shortLabel: 'Post-Build',
-    icon: 'construction',
-    iconFamily: 'MaterialIcons',
-    description: 'After-build cleanup',
+    id: "post_construction",
+    label: "Post-Construction",
+    shortLabel: "Post-Build",
+    icon: "construction",
+    iconFamily: "MaterialIcons",
+    description: "After-build cleanup",
     available: false,
   },
 ];
@@ -66,4 +74,5 @@ export const getServiceById = (id) => SERVICE_TYPES.find((s) => s.id === id);
  * Get only the services currently available for booking.
  * @returns {Object[]}
  */
-export const getAvailableServices = () => SERVICE_TYPES.filter((s) => s.available);
+export const getAvailableServices = () =>
+  SERVICE_TYPES.filter((s) => s.available);

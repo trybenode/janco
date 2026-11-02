@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Defines elevation constants used by the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+ * Imported or linked from: frontend/App/constants/theme/ThemeContext.js, frontend/App/constants/theme/index.js.
+ */
+
 /**
  * JANCO Design Tokens — Elevation / Shadow
  *
