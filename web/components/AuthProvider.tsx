@@ -4,7 +4,7 @@
  * Purpose: Restores and shares authenticated session and profile state with PWA screens.
  * Why: It keeps shared interface behavior reusable and consistent.
  * Uses or links to: web/lib/api.ts, web/lib/offline.ts, web/lib/types.ts.
- * Imported or linked from: web/app/auth/callback/page.tsx, web/app/book/page.tsx, web/app/janitor/profile/page.tsx, web/app/layout.tsx, web/app/login/page.tsx, web/app/portal/jobs/[id]/page.tsx, web/app/portal/page.tsx, web/app/portal/rate/[id]/page.tsx; 7 more in docs/file-inventory.md.
+ * Imported or linked from: web/app/auth/callback/page.tsx, web/app/book/_hooks/useBooking.ts, web/app/janitor/profile/page.tsx, web/app/layout.tsx, web/app/login/page.tsx, web/app/portal/jobs/[id]/page.tsx, web/app/portal/page.tsx, web/app/portal/rate/[id]/page.tsx; 7 more in docs/file-inventory.md.
  */
 
 import { createContext, useContext, useEffect, useMemo, useState } from "react";

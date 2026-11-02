@@ -4,7 +4,7 @@
  * Purpose: Displays dismissible, accessible success, error, and information toasts across the PWA.
  * Why: It keeps shared interface behavior reusable and consistent.
  * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
- * Imported or linked from: web/app/book/page.tsx, web/app/forgot-password/page.tsx, web/app/janitor/page.tsx, web/app/janitor/register/page.tsx, web/app/janitor/schedule/page.tsx, web/app/janitor/verification/page.tsx, web/app/layout.tsx, web/app/login/page.tsx; 12 more in docs/file-inventory.md.
+ * Imported or linked from: web/app/book/_components/BookingSummary.tsx, web/app/forgot-password/page.tsx, web/app/janitor/page.tsx, web/app/janitor/register/page.tsx, web/app/janitor/schedule/page.tsx, web/app/janitor/verification/page.tsx, web/app/layout.tsx, web/app/login/page.tsx; 13 more in docs/file-inventory.md.
  */
 
 
