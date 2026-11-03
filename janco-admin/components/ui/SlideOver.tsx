@@ -1,4 +1,12 @@
 "use client";
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the slide over interface component for the admin application.
+ * Why: It keeps shared interface behavior reusable and consistent.
+ * Uses or links to: janco-admin/lib/utils.ts.
+ * Imported or linked from: janco-admin/app/dashboard/admins/page.tsx, janco-admin/app/dashboard/broadcast/page.tsx, janco-admin/app/dashboard/customers/page.tsx, janco-admin/app/dashboard/finance/page.tsx, janco-admin/app/dashboard/janitors/page.tsx, janco-admin/app/dashboard/jobs/page.tsx.
+ */
+
 
 import { useEffect } from "react";
 import { X } from "lucide-react";

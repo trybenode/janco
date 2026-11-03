@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the skeleton interface component for the admin application.
+ * Why: It keeps shared interface behavior reusable and consistent.
+ * Uses or links to: janco-admin/lib/utils.ts.
+ * Imported or linked from: janco-admin/app/dashboard/admins/page.tsx, janco-admin/app/dashboard/analytics/page.tsx, janco-admin/app/dashboard/broadcast/page.tsx, janco-admin/app/dashboard/customers/page.tsx, janco-admin/app/dashboard/finance/page.tsx, janco-admin/app/dashboard/janitors/page.tsx, janco-admin/app/dashboard/jobs/page.tsx, janco-admin/app/dashboard/page.tsx; 2 more in docs/file-inventory.md.
+ */
+
 import { cn } from "@/lib/utils";
 
 export function Skeleton({ className }: { className?: string }) {
