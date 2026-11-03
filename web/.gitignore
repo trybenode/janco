@@ -1,0 +1,12 @@
+# JANCO FILE DOCUMENTATION
+# Purpose: Defines files excluded from Git tracking for this directory.
+# Why: It keeps local or generated files out of the corresponding workspace operation.
+# Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+# Imported or linked from: None identified by static analysis; framework, runtime, or external consumers may exist.
+
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
