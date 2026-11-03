@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use ratings React hook for the admin application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: janco-admin/lib/api.ts.
+ * Imported or linked from: janco-admin/app/dashboard/ratings/page.tsx.
+ */
+
 import { useQuery } from "@tanstack/react-query";
 import { api, type Rating } from "@/lib/api";
 

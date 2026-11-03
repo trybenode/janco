@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use stats React hook for the admin application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: janco-admin/lib/api.ts.
+ * Imported or linked from: janco-admin/app/dashboard/analytics/page.tsx, janco-admin/app/dashboard/page.tsx.
+ */
+
 import { useQuery } from "@tanstack/react-query";
 import { api, type AdminStats, type GrowthMetrics, type RevenueData, type AlertsResponse } from "@/lib/api";
 

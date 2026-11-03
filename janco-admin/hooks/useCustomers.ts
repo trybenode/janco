@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use customers React hook for the admin application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: janco-admin/lib/api.ts.
+ * Imported or linked from: janco-admin/app/dashboard/broadcast/page.tsx, janco-admin/app/dashboard/customers/page.tsx.
+ */
+
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { api, type Customer, type CustomerDetail } from "@/lib/api";
 import { toast } from "sonner";

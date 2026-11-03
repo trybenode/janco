@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the use pricing React hook for the admin application.
+ * Why: It shares stateful behavior across interface components.
+ * Uses or links to: janco-admin/lib/api.ts.
+ * Imported or linked from: janco-admin/app/dashboard/pricing/page.tsx.
+ */
+
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { api, type PricingConfig, type PricingResponse } from "@/lib/api";
 import { toast } from "sonner";
