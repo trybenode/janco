@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides authenticated admin API requests and typed helpers for dashboard data.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: janco-admin/app/login/page.tsx, janco-admin/lib/auth.ts.
+ * Imported or linked from: janco-admin/app/dashboard/admins/page.tsx, janco-admin/app/dashboard/broadcast/page.tsx, janco-admin/app/dashboard/jobs/page.tsx, janco-admin/app/dashboard/pricing/page.tsx, janco-admin/components/charts/RevenueChart.tsx, janco-admin/hooks/useAdmins.ts, janco-admin/hooks/useBroadcast.ts, janco-admin/hooks/useCustomers.ts; 6 more in docs/file-inventory.md.
+ */
+
 import { getToken, clearToken } from "./auth";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";

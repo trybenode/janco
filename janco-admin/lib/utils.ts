@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides utils integration and shared functionality for the admin application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+ * Imported or linked from: janco-admin/app/dashboard/admins/page.tsx, janco-admin/app/dashboard/analytics/page.tsx, janco-admin/app/dashboard/broadcast/page.tsx, janco-admin/app/dashboard/customers/page.tsx, janco-admin/app/dashboard/finance/page.tsx, janco-admin/app/dashboard/janitors/page.tsx, janco-admin/app/dashboard/jobs/page.tsx, janco-admin/app/dashboard/page.tsx; 9 more in docs/file-inventory.md.
+ */
+
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 

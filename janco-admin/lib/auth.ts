@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides auth integration and shared functionality for the admin application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: janco-admin/app/login/page.tsx.
+ * Imported or linked from: janco-admin/app/dashboard/admins/page.tsx, janco-admin/app/dashboard/finance/page.tsx, janco-admin/app/login/page.tsx, janco-admin/components/layout/Sidebar.tsx, janco-admin/lib/api.ts.
+ */
+
 const TOKEN_KEY = "janco_admin_token";
 
 /** Store token in both localStorage (for JS reads) and the
