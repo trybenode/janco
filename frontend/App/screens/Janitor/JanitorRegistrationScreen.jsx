@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Renders the janitor registration screen in the Expo mobile application.
+ * Why: It provides a navigable screen in the mobile experience.
+ * Uses or links to: frontend/App/components/ui/AppButton.jsx, frontend/App/components/ui/AppCard.jsx, frontend/App/components/ui/AppInput.jsx, frontend/App/components/ui/AppText.jsx, frontend/App/components/ui/ScreenWrapper.jsx, frontend/App/constants/services.js, frontend/App/constants/theme/ThemeContext.js, frontend/App/hooks/authContext.js; 1 more in docs/file-inventory.md.
+ * Imported or linked from: frontend/App/navigation/RootNavigator.jsx.
+ */
+
 import React, { useState } from 'react';
 import { Alert, Switch, View } from 'react-native';
 import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';

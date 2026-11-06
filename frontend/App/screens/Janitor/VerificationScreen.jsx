@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Presents the mobile identity, selfie, and verification-result steps.
+ * Why: It provides a navigable screen in the mobile experience.
+ * Uses or links to: frontend/App/components/ui/AppButton.jsx, frontend/App/components/ui/AppCard.jsx, frontend/App/components/ui/AppHeader.jsx, frontend/App/components/ui/AppInput.jsx, frontend/App/components/ui/AppText.jsx, frontend/App/components/ui/ScreenWrapper.jsx, frontend/App/constants/theme/ThemeContext.js, frontend/api/verificationApi.js.
+ * Imported or linked from: frontend/App/navigation/RootNavigator.jsx.
+ */
+
 /**
  * VerificationScreen — Sprint 4 Day 22.
  *

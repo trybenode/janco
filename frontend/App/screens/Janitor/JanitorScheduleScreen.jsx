@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Renders the janitor schedule screen in the Expo mobile application.
+ * Why: It provides a navigable screen in the mobile experience.
+ * Uses or links to: frontend/App/components/ui/AppButton.jsx, frontend/App/components/ui/AppCard.jsx, frontend/App/components/ui/AppText.jsx, frontend/App/components/ui/EmptyState.jsx, frontend/App/components/ui/ScreenWrapper.jsx, frontend/App/components/ui/Skeleton.jsx, frontend/App/constants/theme/ThemeContext.js, frontend/App/constants/theme/index.js; 2 more in docs/file-inventory.md.
+ * Imported or linked from: frontend/App/navigation/TabNavigator.jsx.
+ */
+
 import React, { useState } from "react";
 import {
   Alert,

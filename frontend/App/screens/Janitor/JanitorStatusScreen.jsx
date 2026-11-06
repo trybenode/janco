@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Renders the janitor status screen in the Expo mobile application.
+ * Why: It provides a navigable screen in the mobile experience.
+ * Uses or links to: frontend/App/components/ui/AppButton.jsx, frontend/App/components/ui/AppText.jsx, frontend/App/components/ui/ScreenWrapper.jsx, frontend/App/constants/theme/ThemeContext.js, frontend/App/hooks/authContext.js, frontend/api/janitorApi.js, frontend/assets/approval.png.
+ * Imported or linked from: frontend/App/navigation/RootNavigator.jsx.
+ */
+
 /**
  * JanitorStatusScreen — Sprint 3 rebuild.
  *
