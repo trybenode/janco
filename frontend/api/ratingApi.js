@@ -1,3 +1,12 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides rating api integration and shared functionality for the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/api/client.js.
+ * Imported or linked from: frontend/App/screens/RatingScreen.jsx.
+ * Backend API routes: backend/app/routes/rating_routes.py.
+ */
+
 /**
  * Rating API Module.
  *
@@ -8,7 +17,7 @@
  * @module api/ratingApi
  */
 
-import client from './client';
+import client from "./client";
 
 /**
  * Submit a rating for a completed job.
@@ -17,8 +26,8 @@ import client from './client';
  * @param {string} [comment=''] - Optional review comment
  * @returns {Promise<{data: {rating, trust_update}|null, error: string|null}>}
  */
-export const submitRating = (jobId, score, comment = '') =>
-  client.post('/ratings', { job_id: jobId, score, comment });
+export const submitRating = (jobId, score, comment = "") =>
+  client.post("/ratings", { job_id: jobId, score, comment });
 
 /**
  * Get a janitor's rating summary and paginated reviews.

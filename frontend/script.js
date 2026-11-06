@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Configures or provides script functionality for the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: None identified by static analysis; framework, runtime, or external consumers may exist.
+ * Imported or linked from: None identified by static analysis; framework, runtime, or external consumers may exist.
+ */
+
 // const { data: janitors } = await supabase
 //   .from('profiles')
 //   .select('*')

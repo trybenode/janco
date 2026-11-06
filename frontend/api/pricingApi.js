@@ -1,3 +1,12 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides pricing api integration and shared functionality for the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/api/client.js.
+ * Imported or linked from: frontend/App/screens/PriceEstimateScreen.jsx, frontend/App/store/bookingStore.js.
+ * Backend API routes: backend/app/routes/pricing_routes.py.
+ */
+
 /**
  * Pricing API Module.
  *

@@ -1,3 +1,12 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides auth api integration and shared functionality for the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/api/client.js.
+ * Imported or linked from: frontend/App/hooks/useNotifications.js, frontend/App/screens/auth/ForgetPasswordScreen.jsx, frontend/App/screens/auth/UpdatePasswordScreen.jsx, frontend/App/store/authStore.js.
+ * Backend API routes: backend/app/routes/auth_routes.py.
+ */
+
 /**
  * Auth API Module.
  *

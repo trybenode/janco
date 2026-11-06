@@ -1,3 +1,12 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides booking api integration and shared functionality for the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/api/client.js.
+ * Imported or linked from: frontend/App/hooks/useJanitors.js, frontend/App/hooks/useJob.js, frontend/App/screens/BookingHistoryScreen.jsx, frontend/App/screens/JobStatusScreen.jsx, frontend/App/screens/NearbyJanitorsScreen.jsx, frontend/App/store/bookingStore.js.
+ * Backend API routes: backend/app/routes/booking_routes.py.
+ */
+
 /**
  * Booking API Module.
  *

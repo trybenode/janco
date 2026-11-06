@@ -1,3 +1,12 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides janitor api integration and shared functionality for the Expo mobile application.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/api/client.js.
+ * Imported or linked from: frontend/App/hooks/useJanitors.js, frontend/App/screens/Janitor/JanitorRegistrationScreen.jsx, frontend/App/screens/Janitor/JanitorStatusScreen.jsx, frontend/App/screens/JobStatusScreen.jsx, frontend/App/screens/NearbyJanitorsScreen.jsx.
+ * Backend API routes: backend/app/routes/janitor_routes.py.
+ */
+
 /**
  * Janitor API Module.
  *

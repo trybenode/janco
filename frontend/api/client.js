@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Provides the shared HTTP client used by Expo mobile API modules.
+ * Why: It groups this functionality for reuse or execution within the project.
+ * Uses or links to: frontend/api/config.js.
+ * Imported or linked from: frontend/App/store/authStore.js, frontend/App/store/networkStore.js, frontend/api/authApi.js, frontend/api/bookingApi.js, frontend/api/chatApi.js, frontend/api/janitorApi.js, frontend/api/legalApi.js, frontend/api/paymentApi.js; 4 more in docs/file-inventory.md.
+ */
+
 /**
  * JANCO API Client
  *
