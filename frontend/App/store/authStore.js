@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Manages auth state in the Expo mobile application.
+ * Why: It keeps application state available to its consumers.
+ * Uses or links to: frontend/api/authApi.js, frontend/api/client.js.
+ * Imported or linked from: frontend/App/components/AppContent.jsx, frontend/App/hooks/useAuth.js, frontend/App/hooks/useChat.js, frontend/App/screens/AuthCallbackScreen.jsx, frontend/App/screens/ProfileScreen.jsx, frontend/App/screens/auth/LoginScreen.jsx, frontend/App/screens/auth/RegistrationScreen.jsx, frontend/App/screens/auth/SignupScreen.jsx.
+ */
+
 /**
  * Auth Store (Zustand).
  *

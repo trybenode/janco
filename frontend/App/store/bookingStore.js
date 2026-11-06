@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Manages booking state in the Expo mobile application.
+ * Why: It keeps application state available to its consumers.
+ * Uses or links to: frontend/api/bookingApi.js, frontend/api/pricingApi.js.
+ * Imported or linked from: None identified by static analysis; framework, runtime, or external consumers may exist.
+ */
+
 /**
  * Booking Store (Zustand).
  *

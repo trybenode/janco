@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Manages network state in the Expo mobile application.
+ * Why: It keeps application state available to its consumers.
+ * Uses or links to: frontend/api/client.js.
+ * Imported or linked from: frontend/App/components/ui/OfflineBanner.jsx, frontend/App/hooks/useJob.js.
+ */
+
 /**
  * Network Store (Zustand).
  *
