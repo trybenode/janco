@@ -1,3 +1,11 @@
+/*
+ * JANCO FILE DOCUMENTATION
+ * Purpose: Renders the signup screen in the Expo mobile application.
+ * Why: It provides a navigable screen in the mobile experience.
+ * Uses or links to: frontend/App/components/ui/AppButton.jsx, frontend/App/components/ui/AppInput.jsx, frontend/App/components/ui/AppText.jsx, frontend/App/components/ui/ScreenWrapper.jsx, frontend/App/constants/theme/ThemeContext.js, frontend/App/store/authStore.js.
+ * Imported or linked from: frontend/App/navigation/RootNavigator.jsx.
+ */
+
 /**
  * SignupScreen — Sprint 3 rebuild.
  *
